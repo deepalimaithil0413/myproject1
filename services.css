@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Merriweather", serif;
+    background-color: #f8f8f8;
+    color: #222;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #03045e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .services h1 {
+    font-size: 42px;
+    color: #023e8a;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+  }
+  
+  .service-box {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-box img {
+    width: 80px;
+    margin-bottom: 15px;
+  }
+  
+  .service-box h3 {
+    color: #0077b6;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-box p {
+    font-size: 14px;
+    color: #444;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #03045e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .services h1 {
+      font-size: 30px;
+    }
+  
+    .subtitle {
+      font-size: 16px;
+    }
+  }
+  

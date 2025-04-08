@@ -1,0 +1,94 @@
+/** 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}*/
+/* General Styles */
+body {
+    /*font-family: Arial, sans-serif;*/
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+/* Header Styles */
+header
+{
+    position: sticky;
+    top: 0%;
+}
+.contact1 {
+    background: #03045e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact1 nav {
+    margin-top: 10px;
+}
+
+.contact1 nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.contact1 nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+
+.contactinfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    /*background: white;*/
+    background: url(slidder2.jpg) no-repeat center center/cover;
+    font-weight: 100px;
+}
+
+.contact-info, .contactform1 {
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+    color: #ddd;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #005f8a;
+}

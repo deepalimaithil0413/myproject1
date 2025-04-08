@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Merriweather", serif;
+    background-color: #f8f8f8;
+    color: #222;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #03045e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* About Section */
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+  }
+  
+  .about-content {
+    flex: 1 1 400px;
+  }
+  
+  .about-content h1 {
+    font-size: 42px;
+    color: #0077b6;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    flex: 1 1 400px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Mission & Vision */
+  .mission-vision {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #e6f2f8;
+  }
+  
+  .mission-vision .box {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-left: 5px solid #0077b6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .mission-vision .box h2 {
+    font-size: 24px;
+    color: #0077b6;
+    margin-bottom: 10px;
+  }
+  
+  .mission-vision .box p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #03045e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .about-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-content h1 {
+      font-size: 32px;
+    }
+  
+    .mission-vision {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
