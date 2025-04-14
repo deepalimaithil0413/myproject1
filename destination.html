@@ -8,56 +8,137 @@
     <link rel="icon" href="destinationicon.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Banjaara_Routes "Tour & Travels"</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="destination.html">Destinations</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+    </nav>
+  </header>
 
-    <section class="destination-section">
-        <h2>Top Travel Destinations</h2>
-    
-        <div class="destination-grid">
-          <div class="destination-card">
-            <img src="Manali1.jpg" alt="Manali">
-            <h3>Manali</h3>
-            <p>Snowy peaks, adventure sports, and beautiful valleys.</p>
-          </div>
-    
-          <div class="destination-card">
-            <img src="kashmir1.jpg" alt="Kashmir">
-            <h3>Kashmir</h3>
-            <p>Paradise on Earth with lakes, gardens, and mountains.</p>
-          </div>
-    
-          <div class="destination-card">
-            <img src="rajasthan.jpg" alt="Rajasthan">
-            <h3>Rajasthan</h3>
-            <p>Deserts, palaces, forts, and vibrant culture.</p>
-          </div>
-    
-          <div class="destination-card">
-            <img src="Andaman.jpg" alt="Andaman">
-            <h3>Andaman & Nicobar</h3>
-            <p>Blue waters, coral reefs, and pristine beaches.</p>
-          </div>
-    
-          <div class="destination-card">
-            <img src="goa1.jpg" alt="Goa">
-            <h3>Goa</h3>
-            <p>Famous for its beaches, nightlife, and Portuguese heritage.</p>
-          </div>
-    
-          <div class="destination-card">
-            <img src="kerala.png" alt="More Destinations">
-            <h3>Kerala</h3>
-            <p>God’s Own Country – Explore the Beauty of Kerala!</p>
-          </div>
+  <section class="destination-section">
+    <h2>Top Travel Destinations</h2>
+    <div class="destination-grid">
+
+      <div class="destination-card">
+        <img src="Manali1.jpg" alt="Manali">
+        <h3>Manali</h3>
+        <p>Snowy peaks, adventure sports, and beautiful valleys.</p>
+        <div class="packages">
+          <strong>Popular Packages:</strong>
+          <ul>
+            <li>3N/4D Snow Trekking – ₹9,999</li>
+            <li>5N/6D Honeymoon Package – ₹15,499</li>
+          </ul>
         </div>
-    
-        <div class="map-container">
-          <h3>Explore on Map</h3>
-          <!--<iframe src="https://www.google.com/maps/d/embed?mid=1QcsGmEZuR_MnRFrhzVG-mEkAsZ8&hl=en" width="100%" height="480" allowfullscreen loading="lazy"></iframe>-->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d117283.8211772783!2d77.38490879999999!3d23.2751104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1744118158619!5m2!1sen!2sin" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="destination-card">
+        <img src="kashmir1.jpg" alt="Kashmir">
+        <h3>Kashmir</h3>
+        <p>Paradise on Earth with lakes, gardens, and mountains.</p>
+        <div class="packages">
+          <strong>Popular Packages:</strong>
+          <ul>
+            <li>4N/5D Houseboat Special – ₹13,999</li>
+            <li>6N/7D Snow Safari – ₹19,999</li>
+          </ul>
         </div>
-      </section>
-  </body>
+      </div>
+
+      <div class="destination-card">
+        <img src="rajasthan.jpg" alt="Rajasthan">
+        <h3>Rajasthan</h3>
+        <p>Deserts, palaces, forts, and vibrant culture.</p>
+        <div class="packages">
+          <strong>Popular Packages:</strong>
+          <ul>
+            <li>3N/4D Jaipur-Udaipur Tour – ₹10,999</li>
+            <li>5N/6D Royal Rajasthan Trip – ₹17,999</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="destination-card">
+        <img src="Andaman.jpg" alt="Andaman">
+        <h3>Andaman & Nicobar</h3>
+        <p>Blue waters, coral reefs, and pristine beaches.</p>
+        <div class="packages">
+          <strong>Popular Packages:</strong>
+          <ul>
+            <li>4N/5D Island Explorer – ₹14,999</li>
+            <li>6N/7D Scuba Diving Special – ₹22,999</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="destination-card">
+        <img src="goa1.jpg" alt="Goa">
+        <h3>Goa</h3>
+        <p>Famous for its beaches, nightlife, and Portuguese heritage.</p>
+        <div class="packages">
+          <strong>Popular Packages:</strong>
+          <ul>
+            <li>3N/4D Beach Bash – ₹8,499</li>
+            <li>5N/6D North & South Goa – ₹12,999</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="destination-card">
+        <img src="kerala.png" alt="Kerala">
+        <h3>Kerala</h3>
+        <p>God’s Own Country – Explore the Beauty of Kerala!</p>
+        <div class="packages">
+          <strong>Popular Packages:</strong>
+          <ul>
+            <li>3N/4D Backwater Retreat – ₹10,999</li>
+            <li>6N/7D Hill Station Tour – ₹17,499</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="destination-card">
+        <img src="Agra.jpg" alt="Agra">
+        <h3>Agra</h3>
+        <p>The city of love — home to the magnificent Taj Mahal and rich Mughal history.</p>
+        <div class="packages">
+          <strong>Popular Packages:</strong>
+          <ul>
+            <li>🏰 2N/3D Taj Mahal Tour – ₹7,999</li>
+            <li>🕌 3N/4D Agra-Fatehpur Sikri Package – ₹9,499</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="destination-card">
+        <img src="ladakh.jpg" alt="leh">
+        <h3>Leh Ladakh</h3>
+        <p>A land of high passes, serene monasteries, and breathtaking landscapes.</p>
+        <div class="packages">
+          <strong>Popular Packages:</strong>
+          <ul>
+            <li>🏞️ 5N/6D Leh-Ladakh Adventure – ₹18,999</li>
+            <li>🏍️ 7N/8D Bike Trip to Leh – ₹24,999</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="map-container">
+      <h3>Explore on Map</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52819.543604915714!2d77.52553845204356!3d34.1662547669295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38fdeb21445fed85%3A0xd1bb09975086f710!2sLeh!5e0!3m2!1sen!2sin!4v1744450564487!5m2!1sen!2sin" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+</body>
 </html>
